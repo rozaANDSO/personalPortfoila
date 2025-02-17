@@ -6,17 +6,16 @@
       "use": "@vercel/next"
     }
   ],
-  "routes": [
-    {
-      "src": "/old-route",
-      "dest": "/new-route"
-    }
-  ],
   "redirects": [
     {
       "source": "/old-page",
       "destination": "/new-page",
       "permanent": true
+    },
+    {
+      "source": "/old-route",
+      "destination": "/new-route",
+      "permanent": false
     }
   ],
   "rewrites": [
