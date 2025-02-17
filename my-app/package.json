@@ -58,6 +58,12 @@
   "directories": {
     "lib": "lib"
   },
+  "scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start"
+},
+
   "keywords": [],
   "author": "roza",
   "license": "ISC"
